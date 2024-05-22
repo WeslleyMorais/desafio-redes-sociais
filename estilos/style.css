@@ -40,3 +40,20 @@ main{
         left: 22px;
         top: 83px;    
  }
+ section#redes-sociais{
+    text-align: right;
+    padding: 30px;
+ }
+ section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.512);
+    box-sizing: border-box;
+ }
+ section#redes-sociais img:hover{
+    transform: translate(-3px, -3px);
+    border: 2px solid white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.649);
+    transition: trasform .3s, border 1s;
+ }
